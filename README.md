@@ -11,4 +11,10 @@ Decision making in Markovian environments is a separate field of research in mac
 
 ## Syllabus
 
-You should read this syllabus as a list of topics that will take on average 30 minutes to go over, and some topics are dependent on other topics.
+You should read this syllabus as a list of topics that will take on average 30 minutes to go over, and some topics are dependent on other topics.  The only rule for going through this material is that you must complete the dependencies before you go over a given topic.  In this way the course forms a directed acyclic graph (DAG) and we will visit each vertex in an ordering that is consistent with the DAG structure.  The format of the syllabus is the following:
+
+topic: dependency 1, dependency 2, ...
+- description
+- subtopics
+- references
+
