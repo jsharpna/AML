@@ -11,14 +11,24 @@ Decision making in Markovian environments is a separate field of research in mac
 
 ## How to read this syllabus
 
-You should read this syllabus as a list of topics that will take on average 30 minutes to go over, and some topics are dependent on other topics.  The only rule for going through this material is that you must complete the dependencies before you go over a given topic.  In this way the course forms a directed acyclic graph (DAG) and we will visit each vertex in an ordering that is consistent with the DAG structure.  The format of the syllabus is the following:
+You should read this syllabus as a list of topics that will take on average 30 minutes to go over, and some topics are dependent on other topics.  The only rule for going through this material is that you must complete the dependencies before you go over a given topic.  In this way the course forms a directed acyclic graph (DAG) and we will visit each vertex in an ordering that is consistent with the DAG structure.  The format of the content section is the following:
 
-### topic: dependency 1, dependency 2, ...
+### topic [ABV] : dependency 1, dependency 2, ...
 - description
 - subtopics
 - references
 
 ## Content
+
+### Intro to machine learning [IML] : 
+- Look into the basic terminology of machine learning, and a preview of what is to come
+- Definition of learning machine, supervised learning, loss, risk, cross-validation, basic APIs, computational complexity, OLS, KNN
+- "Machine Learning", Tom Mitchell, Chapter 1
+
+### Classification and Surrogate Loss [Class] : IML
+- Classification is an important subclass of learning, and it is the first example of a computational-statistical tradeoff with surrogate losses.
+- Hinge loss, logistic loss, surrogate losses, ROC and PR curves
+- [Surrogate losses and F-divergences](https://arxiv.org/pdf/math/0510521.pdf)
 
 ## Instruction Plan 
 
