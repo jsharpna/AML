@@ -140,7 +140,7 @@ The refences are some of my source material for a topic.  You should in no way i
 - GANs
 - ["Generalized Adversarial Networks"](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf), Goodfellow et al., 2014
 
-### Bandits (Bandit) : Online
+### Bandits (Bandit) : OCO
 - Our first sequential decision making setting is the multi-armed and stochastic bandit setting.  We will look at exponential weighting and UCB.
 - Multi-armed bandit, EXP3, UCB
 - ["Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems"](https://arxiv.org/pdf/1204.5721.pdf), Bubeck, Cesa-Bianchi, 2012, Chapters 2-3.
@@ -157,7 +157,7 @@ The refences are some of my source material for a topic.  You should in no way i
 
 ### Policy gradients and REINFORCE (PGrad) : RL
 
-### Trust region methods (TRPO) : PGrad
+### Trust region methods (TRPO) : PGrad, IT
 
 ### Temporal difference learning (TD) : RL
 
