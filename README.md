@@ -88,8 +88,8 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Elements of Statistical Learning"](https://web.stanford.edu/~hastie/ElemStatLearn/), Hastie, Tibshirani, Friedman, Chapter 15
 
 ### Boosting (Boost) : OCO
-- We will go over boosting stumps and how smart ensembles of weak learners can make strong learners.  Specific attention will be paid to Adaboost and we will prove a bound on training error.
-- Adaboost, weak learners, exponential weighting
+- We will go over boosting stumps and how smart ensembles of weak learners can make strong learners.  Specific attention will be paid to Adaboost and we will prove a bound on training error.  Time permitting, we will go over gradient boosting.
+- Adaboost, weak learners, exponential weighting, gradient boosting
 - ["Rapid Object Detection using a Boosted Cascade of Simple Features"](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf), Viola, Jones, 2001.
 - ["Experiments with a New Boosting Algorithm"](https://cseweb.ucsd.edu/~yfreund/papers/boostingexperiments.pdf), Freund, Schapire, 1996.
 - ["Boosting notes"](https://www.cs.princeton.edu/courses/archive/fall08/cos402/readings/boosting.pdf), Schapire.
@@ -101,17 +101,12 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Elements of Statistical Learning"](https://web.stanford.edu/~hastie/ElemStatLearn/), Hastie, Tibshirani, Friedman, Chapter 11
 - ["Overfitting in Neural Nets: Backpropagation, Conjugate Gradient, and Early Stopping"](https://papers.nips.cc/paper/1895-overfitting-in-neural-nets-backpropagation-conjugate-gradient-and-early-stopping.pdf), Caruana, Lawrence, Giles, 2001.
 
-### Non-convex Optimization (NonConv) : PCA, NNets, Conv
+### Non-convex Optimization (NonConv) : UL, NNets, Conv
 - We will look at some examples of non-convex optimization problems in machine learning, such as neural networks and PCA.  We will see that perturbation and SGD can help non-convex optimization escape local minima.
 - Local minima, Saddle points, convergence guarantees, random starts
 - ["Nonconvex optimization lecture notes"](http://www.cs.cornell.edu/courses/cs6787/2017fa/Lecture7.pdf), De Sa 
 - ["Escaping from Saddle Points"](https://www.offconvex.org/2016/03/22/saddlepoints/), Ge
 - ["Saddles again"](https://www.offconvex.org/2016/03/24/saddles-again/), Recht.
-
-### Recurrent Neural Nets (RNN) : NNets, HMM
-- We will see that recurrent neural nets provide an alternative formulation to the HMM for prediction in Markov models.  We will look at unravelling the computation graph and the DAG implied by RNNs.
-- RNN, Recurrent gradient calculation, RNN DAG, LSTM
-- ["Sequence Modeling: Recurrent and Recursive Nets"](https://www.deeplearningbook.org/contents/rnn.html)
 
 ### Deep learning and optimization (Deep) : NonConv, NNets
 - We will see how deep neural nets are universal function approximators, but optimizing them can be challenging.  We will look at optimization methods, such as Nesterov acceleration.  We will also look at tricks like gradient clipping, dropouts, and variance reduction.
@@ -120,16 +115,59 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Universal Approximation Bounds for Superpositions of a Sigmoidal Function "](http://www.stat.yale.edu/~arb4/publications_files/UniversalApproximationBoundsForSuperpositionsOfASigmoidalFunction.pdf), Barron, 1993.
 - ["Optimization for Training Deep Models"](https://www.deeplearningbook.org/contents/optimization.html), Deep Learning, Goodfellow, Bengio, Courville.
 
+### Recurrent Neural Nets (RNN) : Deep, HMM
+- We will see that recurrent neural nets provide an alternative formulation to the HMM for prediction in Markov models.  We will look at unravelling the computation graph and the DAG implied by RNNs.
+- RNN, Recurrent gradient calculation, RNN DAG, LSTM
+- ["Sequence Modeling: Recurrent and Recursive Nets"](https://www.deeplearningbook.org/contents/rnn.html), Deep Learning, Goodfellow, Bengio, Courville.
+
+### Convolutional Neural Nets (ConvNets) : Deep
+- We will see how convolution can enforce parameter sharing, and look at this in the context of computer vision.  We will see how convolution can be used with fixed low level features such as SIFT features and Gabor filters.  This will lead to deep convolutional NNs.  
+- Convolution, FFT, ConvNets
+- ["Convolutional Networks"](https://www.deeplearningbook.org/contents/convnets.html), Deep Learning, Goodfellow, Bengio, Courville.
+
 ### Batch normalization (BatchNorm): Deep
 - In deep learning, at an intermediate layer, the input distribution will shift during training, causing learning rates to needs be small.  Batch normalization is one way to get around this problem by normalizing the neuron in mini-batches.
 - batch normalization
 - ["Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"](https://arxiv.org/abs/1502.03167), Ioffe, Szegedy, 2015.
 
-### 
+### Deep Autoencoders (Auto) : Deep, UL
+- Much like adding layers to linear classifiers can form non-linear classifiers, autoencoders add layers to PCA to perform non-linear dimension reduction.  Time permitting we will look at variants such as sparse, and convolutional.
+- autoencoders, convolutional autoencoders
+- ["Autoencoders"](https://www.deeplearningbook.org/contents/autoencoders.html), Deep Learning, Goodfellow, Bengio, Courville.
 
+### Generalized Adversarial Networks (GAN) : Auto
+- GANs is another deep unsupervised learner that seeks to make it hard to distinguish between fake and training images.  This is accomplished by simultaneously learning and adversary and a generative model.
+- GANs
+- ["Generalized Adversarial Networks"](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf), Goodfellow et al., 2014
+
+### Bandits (Bandit) : Online
+- Our first sequential decision making setting is the multi-armed and stochastic bandit setting.  We will look at exponential weighting and UCB.
+- Multi-armed bandit, EXP3, UCB
+- ["Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems"](https://arxiv.org/pdf/1204.5721.pdf), Bubeck, Cesa-Bianchi, 2012, Chapters 2-3.
+
+### Contextual Bandits (Context) : Bandit
+- A more realistic setting for recommendation systems is bandits with context features.  We will look at contextual bandits in the stochastic framework and the linUCB algorithm.
+- Contextual Bandits, linUCB
+- ["Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems"](https://arxiv.org/pdf/1204.5721.pdf), Bubeck, Cesa-Bianchi, 2012, Chapter 4.
+
+### Reinforcement learning (RL) : Bandit
+- The bandit setting is a specific Markov decision process.  Finding a policy that can perform well in the MDP setting is the focus of reinforcement learning.  We will see the basic definitions of RL, Bellman iteration, and Monto Carlo methods.
+- Bellman iteration, RL, MDP, on/off-policy
+- ["Reinforcement Learning"](http://incompleteideas.net/book/the-book-2nd.html), Sutton, Barto, Chapters 3-4
+
+### Policy gradients and REINFORCE (PGrad) : RL
+
+### Trust region methods (TRPO) : PGrad
+
+### Temporal difference learning (TD) : RL
+
+### Q-learning and SARSA (Qlearn) : TD
+
+### Deep Q-learning (DQN) : Qlearn
 
 ## Instruction Plan 
 
+We may not be able to get to every topic.  Each of you will act as scribe for one of these topics, and 
 
 ## Grading
 
