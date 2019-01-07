@@ -165,13 +165,8 @@ The refences are some of my source material for a topic.  You should in no way i
 
 ### Deep Q-learning (DQN) : Qlearn
 
-## Instruction Plan 
+## Instruction Plan and Grading
 
-We may not be able to get to every topic.  Each of you will act as scribe for one of these topics, and 
+We may not be able to get to every topic.  My job is to present these methods and summarize the material in lecture.  Each of you will act as scribe for one of these topics, and will implement and test one of these methods.  You will create your own branch of this repo, with code, and jupyter notebooks.  You will make a pull request, I will edit it, and then we will merge to the master branch.  Once this is completed to my satisfaction then you will pass the class with an A.  If you are missing some component, or I am not satisfied with your implementations, such as it not being a serious attempt at implementing it, then you may get a B.
 
-## Grading
-
-You have two tasks:
-- Scribing
-- Example Implementation
 
