@@ -129,6 +129,7 @@ The refences are some of my source material for a topic.  You should in no way i
 - In deep learning, at an intermediate layer, the input distribution will shift during training, causing learning rates to needs be small.  Batch normalization is one way to get around this problem by normalizing the neuron in mini-batches.
 - batch normalization
 - ["Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"](https://arxiv.org/abs/1502.03167), Ioffe, Szegedy, 2015.
+- ["How Does Batch Normalization Help Optimization?"](https://arxiv.org/abs/1805.11604), Santurkar et al., 2018
 
 ### Deep Autoencoders (Auto) : Deep, UL
 - Much like adding layers to linear classifiers can form non-linear classifiers, autoencoders add layers to PCA to perform non-linear dimension reduction.  Time permitting we will look at variants such as sparse, and convolutional.
