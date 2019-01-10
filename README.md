@@ -37,12 +37,15 @@ The refences are some of my source material for a topic.  You should in no way i
 ### Classification and Surrogate Loss (Class) : IML
 - Classification is an important subclass of learning, and it is the first example of a computational-statistical tradeoff with surrogate losses.
 - Hinge loss, logistic loss, surrogate losses, ROC and PR curves
+- "A Probabilistic Theory of Pattern Recognition", Devroye et al., Chapters 1-2
 - ["Surrogate losses and F-divergences"](https://arxiv.org/pdf/math/0510521.pdf), Nguyen, Wainwright, Jordan, 2009.
 
 ### Information Theory (IT) : Class
 - This is a continuation of Class with a look at F-divergences and other topics in information theory
 - F-divergences, differential entropy, and hypothesis testing
 - "Introduction to Non-parametric Estimation", Tsybakov, Chapter 2.
+- ["Information Theory, Inference, and Learning Algorithms"](http://www.inference.org.uk/itprnn/book.pdf), Mackay, Chapter 1. 
+- "A Probabilistic Theory of Pattern Recognition", Devroye et al., Chapter 3
 
 ### Bias-Variance Tradeoff (BV) : IML
 - We will see a bias variance tradeoff in supervised learning with a toy model, which is the sparse normal means model.  Also some strategies for model selection.
