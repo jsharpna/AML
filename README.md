@@ -2,6 +2,7 @@
 
 ### Prof. James Sharpnack
 ### Winter 2019
+### Office hours: 10am-12pm MSB 4107 or by appointment
 
 ## Introduction
 
