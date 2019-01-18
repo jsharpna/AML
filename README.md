@@ -170,6 +170,10 @@ The refences are some of my source material for a topic.  You should in no way i
 
 ### Deep Q-learning (DQN) : Qlearn
 
+- ["Playing Atari with Deep Reinforcement Learning"](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf), Mihn et al.
+- ["Rainbow: Combining Improvements in Deep Reinforcement Learning"](https://arxiv.org/pdf/1710.02298.pdf)
+
+
 ## Instruction Plan and Grading
 
 - the scribes have been assigned, you can find [your lesson here](https://docs.google.com/spreadsheets/d/1AOxBEi1xyqoQX1aaQ1fPBTYGm2-nGLjtng7GZHPOR7Q/edit?usp=sharing)
