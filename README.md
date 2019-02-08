@@ -162,7 +162,7 @@ The refences are some of my source material for a topic.  You should in no way i
 
 ### Policy gradients and REINFORCE (PGrad) : RL
 
-### Trust region methods (TRPO) : PGrad, IT
+### Proximal policy optimization (PPO) : PGrad, IT
 
 ### Temporal difference learning (TD) : RL
 
