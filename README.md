@@ -97,6 +97,7 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Rapid Object Detection using a Boosted Cascade of Simple Features"](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf), Viola, Jones, 2001.
 - ["Experiments with a New Boosting Algorithm"](https://cseweb.ucsd.edu/~yfreund/papers/boostingexperiments.pdf), Freund, Schapire, 1996.
 - ["Boosting notes"](https://www.cs.princeton.edu/courses/archive/fall08/cos402/readings/boosting.pdf), Schapire.
+- ["Gradient tree boosting paper"](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf), Friedman
 
 ### Neural Nets (NNets) : Class, Conv
 - Neural networks construct non-linear functions by composing simple convex functions, which produces non-convex functions.  We will see that neural networks can learn non-linear separators like XOR, and look at how to optimize them.
