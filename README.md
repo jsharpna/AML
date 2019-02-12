@@ -119,6 +119,7 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["On the importance of initialization and momentum in deep learning"](http://proceedings.mlr.press/v28/sutskever13.pdf), Sutskever et al., 2013
 - ["Universal Approximation Bounds for Superpositions of a Sigmoidal Function "](http://www.stat.yale.edu/~arb4/publications_files/UniversalApproximationBoundsForSuperpositionsOfASigmoidalFunction.pdf), Barron, 1993.
 - ["Optimization for Training Deep Models"](https://www.deeplearningbook.org/contents/optimization.html), Deep Learning, Goodfellow, Bengio, Courville.
+- ["On the Number of Linear Regions of Deep Neural Networks"](https://arxiv.org/pdf/1402.1869.pdf), Montufar et al., 2014
 
 ### Recurrent Neural Nets (RNN) : Deep, HMM
 - We will see that recurrent neural nets provide an alternative formulation to the HMM for prediction in Markov models.  We will look at unravelling the computation graph and the DAG implied by RNNs.
