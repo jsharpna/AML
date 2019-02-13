@@ -125,6 +125,8 @@ The refences are some of my source material for a topic.  You should in no way i
 - We will see that recurrent neural nets provide an alternative formulation to the HMM for prediction in Markov models.  We will look at unravelling the computation graph and the DAG implied by RNNs.
 - RNN, Recurrent gradient calculation, RNN DAG, LSTM
 - ["Sequence Modeling: Recurrent and Recursive Nets"](https://www.deeplearningbook.org/contents/rnn.html), Deep Learning, Goodfellow, Bengio, Courville.
+- ["Neural Machine Translation by Jointly Learning to Align and Translate"](https://arxiv.org/pdf/1409.0473.pdf), Bahdanau et al., 2016
+- ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215), Sutskever et al., 2014
 
 ### Convolutional Neural Nets (ConvNets) : Deep
 - We will see how convolution can enforce parameter sharing, and look at this in the context of computer vision.  We will see how convolution can be used with fixed low level features such as SIFT features and Gabor filters.  This will lead to deep convolutional NNs.  
