@@ -134,6 +134,8 @@ The refences are some of my source material for a topic.  You should in no way i
 - We will see how convolution can enforce parameter sharing, and look at this in the context of computer vision.  We will see how convolution can be used with fixed low level features such as SIFT features and Gabor filters.  This will lead to deep convolutional NNs.  
 - Convolution, FFT, ConvNets
 - ["Convolutional Networks"](https://www.deeplearningbook.org/contents/convnets.html), Deep Learning, Goodfellow, Bengio, Courville.
+- ["Gradient-Based Learning Applied to Document Recognition"](http://www.dengfanxin.cn/wp-content/uploads/2016/03/1998Lecun.pdf), LeCun et al., 1998
+- ["Going Deeper with Convolutions"](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf), Szegedy et al., 2015
 
 ### Batch normalization (BatchNorm): Deep
 - In deep learning, at an intermediate layer, the input distribution will shift during training, causing learning rates to needs be small.  Batch normalization is one way to get around this problem by normalizing the neuron in mini-batches.
