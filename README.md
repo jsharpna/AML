@@ -97,6 +97,7 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Rapid Object Detection using a Boosted Cascade of Simple Features"](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf), Viola, Jones, 2001.
 - ["Experiments with a New Boosting Algorithm"](https://cseweb.ucsd.edu/~yfreund/papers/boostingexperiments.pdf), Freund, Schapire, 1996.
 - ["Boosting notes"](https://www.cs.princeton.edu/courses/archive/fall08/cos402/readings/boosting.pdf), Schapire.
+- ["Gradient tree boosting paper"](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf), Friedman
 
 ### Neural Nets (NNets) : Class, Conv
 - Neural networks construct non-linear functions by composing simple convex functions, which produces non-convex functions.  We will see that neural networks can learn non-linear separators like XOR, and look at how to optimize them.
@@ -118,16 +119,23 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["On the importance of initialization and momentum in deep learning"](http://proceedings.mlr.press/v28/sutskever13.pdf), Sutskever et al., 2013
 - ["Universal Approximation Bounds for Superpositions of a Sigmoidal Function "](http://www.stat.yale.edu/~arb4/publications_files/UniversalApproximationBoundsForSuperpositionsOfASigmoidalFunction.pdf), Barron, 1993.
 - ["Optimization for Training Deep Models"](https://www.deeplearningbook.org/contents/optimization.html), Deep Learning, Goodfellow, Bengio, Courville.
+- ["On the Number of Linear Regions of Deep Neural Networks"](https://arxiv.org/pdf/1402.1869.pdf), Montufar et al., 2014
 
 ### Recurrent Neural Nets (RNN) : Deep, HMM
 - We will see that recurrent neural nets provide an alternative formulation to the HMM for prediction in Markov models.  We will look at unravelling the computation graph and the DAG implied by RNNs.
 - RNN, Recurrent gradient calculation, RNN DAG, LSTM
 - ["Sequence Modeling: Recurrent and Recursive Nets"](https://www.deeplearningbook.org/contents/rnn.html), Deep Learning, Goodfellow, Bengio, Courville.
+- ["Neural Machine Translation by Jointly Learning to Align and Translate"](https://arxiv.org/pdf/1409.0473.pdf), Bahdanau et al., 2016
+- ["Sequence to Sequence Learning with Neural Networks"](https://arxiv.org/abs/1409.3215), Sutskever et al., 2014
+- [Tech Report, "Probabilistic Interpretations of Recurrent Neural Networks"](https://www.cs.cmu.edu/~epxing/Class/10708-17/project-reports/project10.pdf), Choe et al., 2017
+- [NMT code](https://github.com/tensorflow/nmt)
 
 ### Convolutional Neural Nets (ConvNets) : Deep
 - We will see how convolution can enforce parameter sharing, and look at this in the context of computer vision.  We will see how convolution can be used with fixed low level features such as SIFT features and Gabor filters.  This will lead to deep convolutional NNs.  
 - Convolution, FFT, ConvNets
 - ["Convolutional Networks"](https://www.deeplearningbook.org/contents/convnets.html), Deep Learning, Goodfellow, Bengio, Courville.
+- ["Gradient-Based Learning Applied to Document Recognition"](http://www.dengfanxin.cn/wp-content/uploads/2016/03/1998Lecun.pdf), LeCun et al., 1998
+- ["Going Deeper with Convolutions"](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf), Szegedy et al., 2015
 
 ### Batch normalization (BatchNorm): Deep
 - In deep learning, at an intermediate layer, the input distribution will shift during training, causing learning rates to needs be small.  Batch normalization is one way to get around this problem by normalizing the neuron in mini-batches.
@@ -162,7 +170,7 @@ The refences are some of my source material for a topic.  You should in no way i
 
 ### Policy gradients and REINFORCE (PGrad) : RL
 
-### Trust region methods (TRPO) : PGrad, IT
+### Proximal policy optimization (PPO) : PGrad, IT
 
 ### Temporal difference learning (TD) : RL
 
@@ -170,8 +178,16 @@ The refences are some of my source material for a topic.  You should in no way i
 
 ### Deep Q-learning (DQN) : Qlearn
 
+- ["Playing Atari with Deep Reinforcement Learning"](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf), Mihn et al.
+- ["Rainbow: Combining Improvements in Deep Reinforcement Learning"](https://arxiv.org/pdf/1710.02298.pdf)
+
+
 ## Instruction Plan and Grading
 
-We may not be able to get to every topic.  My job is to present these methods and summarize the material in lecture.  Each of you will act as scribe for one of these topics, and will implement and test one of these methods.  You will create your own branch of this repo, with code, and jupyter notebooks.  You will make a pull request, I will edit it, and then we will merge to the master branch.  Once this is completed to my satisfaction then you will pass the class with an A.  If you are missing some component, or I am not satisfied with your implementations, such as it not being a serious attempt at implementing it, then you may get a B.
+- the scribes have been assigned, you can find [your lesson here](https://docs.google.com/spreadsheets/d/1AOxBEi1xyqoQX1aaQ1fPBTYGm2-nGLjtng7GZHPOR7Q/edit?usp=sharing)
+- you will use LaTeX to write up the lectures, and should recieve an invite to a project on overleaf
+
+We may not be able to get to every topic.  My job is to present these methods and summarize the material in lecture.  Each of you will act as scribe for one of these topics.  Once this is completed to my satisfaction then you will pass the class with an A.
+
 
 
