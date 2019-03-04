@@ -174,6 +174,7 @@ The refences are some of my source material for a topic.  You should in no way i
 ### Proximal policy optimization (PPO) : PGrad, IT
 
 ### Temporal difference learning (TD) : RL
+- ["Actor-Critic Algorithms"](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf), Konda and Tsitsiklis, '00.
 
 ### Q-learning and SARSA (Qlearn) : TD
 
