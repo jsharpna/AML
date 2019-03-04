@@ -170,11 +170,14 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Reinforcement Learning"](http://incompleteideas.net/book/the-book-2nd.html), Sutton, Barto, Chapters 3-4
 
 ### Policy gradients and REINFORCE (PGrad) : RL
-
-### Proximal policy optimization (PPO) : PGrad, IT
+- ["Policy Gradient Methods for Reinforcement Learning with Function Approximation"](https://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf), Sutton et al., '00.
+- ["http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.129.8871"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.129.8871), Williams, '92.
 
 ### Temporal difference learning (TD) : RL
+- ["Reinforcement Learning"](http://incompleteideas.net/book/the-book-2nd.html), Sutton, Barto, Chapters 6
 - ["Actor-Critic Algorithms"](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf), Konda and Tsitsiklis, '00.
+
+### Proximal policy optimization (PPO) : PGrad, IT
 
 ### Q-learning and SARSA (Qlearn) : TD
 
