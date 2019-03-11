@@ -177,15 +177,17 @@ The refences are some of my source material for a topic.  You should in no way i
 - ["Reinforcement Learning"](http://incompleteideas.net/book/the-book-2nd.html), Sutton, Barto, Chapters 6
 - ["Actor-Critic Algorithms"](https://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf), Konda and Tsitsiklis, '00.
 
-### Proximal policy optimization (PPO) : PGrad, IT
-
 ### Q-learning and SARSA (Qlearn) : TD
+- ["Reinforcement Learning"](http://incompleteideas.net/book/the-book-2nd.html), Sutton, Barto, Chapter 6
+- ["Q-learning"](https://link.springer.com/article/10.1007/BF00992698), Watkins and Dayan, 1992
+
+### Proximal policy optimization (PPO) : PGrad, IT
+- ["Proximal Policy Optimization Algorithms"](https://arxiv.org/pdf/1707.06347.pdf), Schulman et al. 2017.
+- ["Trust Region Policy Optimization"](https://arxiv.org/pdf/1502.05477.pdf), Schulman et al. 2015
 
 ### Deep Q-learning (DQN) : Qlearn
-
 - ["Playing Atari with Deep Reinforcement Learning"](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf), Mihn et al.
 - ["Rainbow: Combining Improvements in Deep Reinforcement Learning"](https://arxiv.org/pdf/1710.02298.pdf)
-
 
 ## Instruction Plan and Grading
 
