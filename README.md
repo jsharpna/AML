@@ -180,6 +180,7 @@ The refences are some of my source material for a topic.  You should in no way i
 ### Q-learning and SARSA (Qlearn) : TD
 - ["Reinforcement Learning"](http://incompleteideas.net/book/the-book-2nd.html), Sutton, Barto, Chapter 6
 - ["Q-learning"](https://link.springer.com/article/10.1007/BF00992698), Watkins and Dayan, 1992
+- ["Convergence of Stochastic Iterative Dynamic Programming Algoriths"](https://papers.nips.cc/paper/764-convergence-of-stochastic-iterative-dynamic-programming-algorithms.pdf), Jaakola at al. 1994
 
 ### Proximal policy optimization (PPO) : PGrad, IT
 - ["Proximal Policy Optimization Algorithms"](https://arxiv.org/pdf/1707.06347.pdf), Schulman et al. 2017.
